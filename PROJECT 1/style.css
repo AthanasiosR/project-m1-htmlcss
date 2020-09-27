@@ -31,8 +31,6 @@
         top: 5px;
     }
 
-
-
     .navMenu:after {
         background: none repeat scroll 0 0 transparent;
         bottom: 20;
@@ -314,6 +312,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        color: #3a3633;
     }
 
     .notes {
@@ -326,7 +325,7 @@
 
 
 
-MOBILE CSS
+MOBILE CSS BEOLOW
 
 
 
@@ -506,7 +505,7 @@ MOBILE CSS
 
     .slickGradient {
         height: 400px;
-        background-color: skyblue; /* For browsers that do not support gradients */
+        background-color: skyblue; 
         background-image: linear-gradient(to right, white , skyblue);
         margin: 0px;
     }
@@ -626,5 +625,8 @@ MOBILE CSS
         vertical-align: middle;
     }
 
+    .footNotes {
+        color: #3a3633;
+    }
 
 }
